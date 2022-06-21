@@ -1,0 +1,883 @@
+[Definition]
+titleIds = 0005000010110E00,0005000010145000,0005000010144F00
+name = Graphics Settings
+path = "Super Smash Bros. for Wii U/Graphics"
+description = Allows you to change the game's resolution, shadow quality and anisotropic filtering quality.||Made by M&&M.
+version = 6
+
+[Default]
+$advancedMode:int = 0
+$width = 1920
+$height = 1080
+$gameWidth = 1920
+$gameHeight = 1080
+$aspectRatioWidth = 16
+$aspectRatioHeight = 9
+$shadowQuality = 1
+$anisotropy = 1
+
+
+# Settings Mode
+
+[Preset]
+name = Disabled
+category = Additional Downsampling Resolutions
+default = 1
+
+[Preset]
+name = Enabled
+category = Additional Downsampling Resolutions
+$advancedMode:int = 1
+
+
+# Aspect Ratio
+
+[Preset]
+name = 16:9 (Default)
+category = Aspect Ratio
+$aspectRatioWidth = 16
+$aspectRatioHeight = 9
+
+#[Preset]
+#name = 16:10
+#category = Aspect Ratio
+#$aspectRatioWidth = 16
+#$aspectRatioHeight = 10
+
+[Preset]
+name = 21:9
+category = Aspect Ratio
+$aspectRatioWidth = 21
+$aspectRatioHeight = 9
+
+[Preset]
+name = 32:9
+category = Aspect Ratio
+$aspectRatioWidth = 32
+$aspectRatioHeight = 9
+
+[Preset]
+name = 32:10
+category = Aspect Ratio
+$aspectRatioWidth = 32
+$aspectRatioHeight = 10
+
+[Preset]
+name = 48:9
+category = Aspect Ratio
+$aspectRatioWidth = 48
+$aspectRatioHeight = 9
+
+#[Preset]
+#name = 4:3
+#category = Aspect Ratio
+#$aspectRatioWidth = 4
+#$aspectRatioHeight = 3
+
+#[Preset]
+#name = 5:4
+#category = Aspect Ratio
+#$aspectRatioWidth = 5
+#$aspectRatioHeight = 4
+
+
+# 16:9 Resolutions
+
+[Preset]
+name = 320x180
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 320
+$height = 180
+
+[Preset]
+name = 640x360
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 640
+$height = 360
+
+[Preset]
+name = 960x540
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 960
+$height = 540
+
+[Preset]
+name = 1280x720 (HD, Default)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+default = 1
+
+[Preset]
+name = 1600x900 (HD+)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1600
+$height = 900
+
+[Preset]
+name = 1920x1080 (Full HD)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1920
+$height = 1080
+
+[Preset]
+name = 2560x1440 (2K)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2560
+$height = 1440
+
+[Preset]
+name = 3200x1800
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3200
+$height = 1800
+
+[Preset]
+name = 3840x2160 (4K)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 2160
+
+[Preset]
+name = 5120x2880 (5K)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 2880
+
+[Preset]
+name = 7680x4320 (8K)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 4320
+
+[Preset]
+name = 10240x5760 (10K)
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 5760
+
+# 16:10 Resolutions
+
+[Preset]
+name = 1280x800
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1280
+$height = 800
+
+[Preset]
+name = 1440x900
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1440
+$height = 900
+
+[Preset]
+name = 1680x1050
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1680
+$height = 1050
+
+[Preset]
+name = 1920x1200
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1920
+$height = 1200
+
+[Preset]
+name = 2560x1600
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 2560
+$height = 1600
+
+[Preset]
+name = 2880x1800
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 2880
+$height = 1800
+
+[Preset]
+name = 3840x2400
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 3840
+$height = 2400
+
+[Preset]
+name = 5120x3200
+category = Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 5120
+$height = 3200
+
+# 21:9 Resolutions
+
+[Preset]
+name = 1720x720
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1720
+$height = 720
+
+[Preset]
+name = 2100x900
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2100
+$height = 900
+
+[Preset]
+name = 2560x1080
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2560
+$height = 1080
+
+[Preset]
+name = 3440x1440
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3440
+$height = 1440
+
+[Preset]
+name = 3440x1440 (150% downsample from 5160x2160)
+category = Resolution
+condition = ($advancedMode == 1) + ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 3
+$width = 5160
+$height = 2160
+
+[Preset]
+name = 3840x1600
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 1600
+
+[Preset]
+name = 4300x1800
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 4300
+$height = 1800
+
+[Preset]
+name = 5120x2160
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 2160
+
+[Preset]
+name = 6880x2880
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 6880
+$height = 2880
+
+[Preset]
+name = 10240x4320
+category = Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 4320
+
+# 32:9 Resolutions
+
+[Preset]
+name = 3840x1080
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 1080
+
+[Preset]
+name = 5120x1440
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 7680x2160
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 2160
+
+[Preset]
+name = 10240x2880
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 2880
+
+# 31:10 Resolutions
+
+[Preset]
+name = 3840x1200
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 3840
+$height = 1200
+
+[Preset]
+name = 5760x1800
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 5760
+$height = 1800
+
+[Preset]
+name = 7680x2400
+category = Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 7680
+$height = 2400
+
+# 48:9 Resolutions
+
+[Preset]
+name = 5760x1080
+category = Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5760
+$height = 1080
+
+[Preset]
+name = 7680x1440
+category = Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 1440
+
+[Preset]
+name = 11520x2160
+category = Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 11520
+$height = 2160
+
+# 4:3 Resolutions
+
+[Preset]
+name = 800x600
+category = Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 800
+$height = 600
+
+[Preset]
+name = 1024x768
+category = Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1024
+$height = 768
+
+[Preset]
+name = 1280x960
+category = Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1280
+$height = 960
+
+[Preset]
+name = 1600x1200
+category = Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1600
+$height = 1200
+
+[Preset]
+name = 1920x1440
+category = Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1920
+$height = 1440
+
+# 5:4 Resolutions
+
+[Preset]
+name = 1280x1024
+category = Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 1280
+$height = 1024
+
+[Preset]
+name = 5760x1080 (3 Full HD )
+category = Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 5760
+$height = 1080
+
+[Preset]
+name = 8640x1620
+category = Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 8640
+$height = 1620
+
+[Preset]
+name = 14400x2700
+category = Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 14400
+$height = 2700
+
+
+# Shadows
+
+[Preset]
+name = Low (50%)
+category = Shadows
+$shadowQuality = 0.5
+
+[Preset]
+name = Medium (100%, Default)
+category = Shadows
+default = 1
+
+[Preset]
+name = High (200%)
+category = Shadows
+$shadowQuality = 2
+
+[Preset]
+name = Ultra (300%)
+category = Shadows
+$shadowQuality = 3
+
+[Preset]
+name = Extreme (400%, Unstable)
+category = Shadows
+$shadowQuality = 4
+
+
+# Anisotropic Filtering
+
+[Preset]
+name = 1x (Default)
+category = Anisotropic Filtering
+default = 1
+
+[Preset]
+name = 2x
+category = Anisotropic Filtering
+$anisotropy = 2
+
+[Preset]
+name = 4x
+category = Anisotropic Filtering
+$anisotropy = 4
+
+[Preset]
+name = 8x
+category = Anisotropic Filtering
+$anisotropy = 8
+
+[Preset]
+name = 16x
+category = Anisotropic Filtering
+$anisotropy = 16
+
+
+
+# Anisotropic Filtering
+
+[TextureRedefine]
+tileModesExcluded = 0x001 # ignore cpu processed textures
+formatsExcluded = 0x001,0x01a,0x01f,0x122,0x219,0x21a,0x21f,0x80e,0x816,0x81e,0x820,0x823 # ignore viewports and cubemaps
+overwriteAnisotropy = $anisotropy
+
+# Texture Redefines
+
+[TextureRedefine]
+width = 1920
+height = 1088
+formatsExcluded = 0x219,0x1a
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1088
+
+[TextureRedefine]
+width = 1920
+height = 1080
+formatsExcluded = 0x219,0x1a
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1080
+
+[TextureRedefine]
+width = 960
+height = 544
+formatsExcluded = 0x21a
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 544
+
+[TextureRedefine]
+width = 960
+height = 540
+formatsExcluded = 0x21a
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 540
+
+[TextureRedefine]
+width = 960
+height = 368
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 960
+height = 360
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 360
+
+[TextureRedefine]
+width = 832
+height = 416
+overwriteWidth = ($width / $gameWidth) * 832
+overwriteHeight = ($height / $gameHeight) * 416
+
+[TextureRedefine]
+width = 820
+height = 410
+overwriteWidth = ($width / $gameWidth) * 820
+overwriteHeight = ($height / $gameHeight) * 410
+
+[TextureRedefine]
+width = 768
+height = 368
+overwriteWidth = ($width / $gameWidth) * 768
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 736
+height = 368
+overwriteWidth = ($width / $gameWidth) * 736
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 730
+height = 365
+overwriteWidth = ($width / $gameWidth) * 730
+overwriteHeight = ($height / $gameHeight) * 365
+
+[TextureRedefine]
+width = 512
+height = 272
+overwriteWidth = ($width / $gameWidth) * 512
+overwriteHeight = ($height / $gameHeight) * 272
+
+[TextureRedefine]
+width = 480
+height = 272
+formatsExcluded = 0x21a,0x816
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 272
+
+[TextureRedefine]
+width = 480
+height = 270
+formatsExcluded = 0x21a,0x816
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 270
+
+[TextureRedefine]
+width = 480
+height = 192
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 192
+
+[TextureRedefine]
+width = 480
+height = 180
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 180
+
+[TextureRedefine]
+width = 448
+height = 224
+overwriteWidth = ($width / $gameWidth) * 448
+overwriteHeight = ($height / $gameHeight) * 224
+
+[TextureRedefine]
+width = 420
+height = 210
+overwriteWidth = ($width / $gameWidth) * 420
+overwriteHeight = ($height / $gameHeight) * 210
+
+[TextureRedefine]
+width = 256
+height = 256
+formats = 0x5,0x19
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 256
+
+[TextureRedefine]
+width = 256
+height = 144
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 144
+
+[TextureRedefine]
+width = 249
+height = 250
+overwriteWidth = ($width / $gameWidth) * 249
+overwriteHeight = ($height / $gameHeight) * 250
+
+[TextureRedefine]
+width = 240
+height = 135
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 240
+overwriteHeight = ($height / $gameHeight) * 135
+
+[TextureRedefine]
+width = 192
+height = 160
+overwriteWidth = ($width / $gameWidth) * 192
+overwriteHeight = ($height / $gameHeight) * 160
+
+[TextureRedefine]
+width = 192
+height = 144
+overwriteWidth = ($width / $gameWidth) * 192
+overwriteHeight = ($height / $gameHeight) * 144
+
+[TextureRedefine]
+width = 160
+height = 160
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 160
+
+[TextureRedefine]
+width = 160
+height = 144
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 144
+
+[TextureRedefine]
+width = 135
+height = 135
+overwriteWidth = ($width / $gameWidth) * 135
+overwriteHeight = ($height / $gameHeight) * 135
+
+[TextureRedefine]
+width = 128
+height = 80
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 80
+
+[TextureRedefine]
+width = 128
+height = 128
+formats = 0x21f,0x219,0x80e
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 128
+
+[TextureRedefine]
+width = 120
+height = 67
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 120
+overwriteHeight = ($height / $gameHeight) * 67
+
+[TextureRedefine]
+width = 64
+height = 48
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine]
+width = 60
+height = 33
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 60
+overwriteHeight = ($height / $gameHeight) * 33
+
+[TextureRedefine]
+width = 30
+height = 16
+formatsExcluded = 0x816
+overwriteWidth = ($width / $gameWidth) * 30
+overwriteHeight = ($height / $gameHeight) * 16
+
+# Reduce Color Banding
+
+[TextureRedefine] # 1920x1088, f0219
+width = 1920
+height = 1088
+formats = 0x219
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1088
+
+[TextureRedefine] # 1920x1088, f001a
+width = 1920
+height = 1088
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1088
+
+[TextureRedefine] # 1920x1080, f0219
+width = 1920
+height = 1080
+formats = 0x219
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1080
+
+[TextureRedefine] # 1920x1080, f001a
+width = 1920
+height = 1080
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1920
+overwriteHeight = ($height / $gameHeight) * 1080
+
+[TextureRedefine] # 960x544, f021a
+width = 960
+height = 544
+formats = 0x21a
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 544
+
+[TextureRedefine] # 960x540, f021a
+width = 960
+height = 540
+formats = 0x21a
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 960
+overwriteHeight = ($height / $gameHeight) * 540
+
+[TextureRedefine] # 480x272, f021a
+width = 480
+height = 272
+formats = 0x21a
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 272
+
+[TextureRedefine] # 480x272, f0816
+width = 480
+height = 272
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 272
+
+[TextureRedefine] # 480x270, f021a
+width = 480
+height = 270
+formats = 0x21a
+overwriteFormat = 0x21f
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 270
+
+[TextureRedefine] # 480x270, f0816
+width = 480
+height = 270
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 480
+overwriteHeight = ($height / $gameHeight) * 270
+
+[TextureRedefine] # 256x144, f0816
+width = 256
+height = 144
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 144
+
+[TextureRedefine] # 240x135, f0816
+width = 240
+height = 135
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 240
+overwriteHeight = ($height / $gameHeight) * 135
+
+[TextureRedefine] # 128x80, f0816
+width = 128
+height = 80
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 80
+
+[TextureRedefine] # 120x67, f0816
+width = 120
+height = 67
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 120
+overwriteHeight = ($height / $gameHeight) * 67
+
+[TextureRedefine] # 64x48, f0816
+width = 64
+height = 48
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine] # 60x33, f0816
+width = 60
+height = 33
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 60
+overwriteHeight = ($height / $gameHeight) * 33
+
+[TextureRedefine] # 32x16, f0816
+width = 32
+height = 16
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 32
+overwriteHeight = ($height / $gameHeight) * 16
+
+[TextureRedefine] # 30x16, f0816
+width = 30
+height = 16
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 30
+overwriteHeight = ($height / $gameHeight) * 16
+
+# Shadows
+
+[TextureRedefine] # Shadows
+width = 1024
+height = 1024
+formats = 0x5
+overwriteWidth = $shadowQuality * 1024
+overwriteHeight = $shadowQuality * 1024
+
+[TextureRedefine] # Performance Shadows, Blur Pass
+width = 512
+height = 512
+formats = 0xb,0xf
+overwriteWidth = $shadowQuality * 512
+overwriteHeight = $shadowQuality * 512
+

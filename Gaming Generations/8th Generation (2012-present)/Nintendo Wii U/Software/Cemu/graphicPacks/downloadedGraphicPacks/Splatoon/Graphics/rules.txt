@@ -1,0 +1,1408 @@
+[Definition]
+titleIds = 0005000010176900,0005000010176A00,0005000010162B00
+name = Graphic Options
+path = "Splatoon/Graphics"
+description = Allows you to change the game's TV resolution, gamepad resolution, shadow quality, bloom intensity and anisotropic filtering quality.|Made by M&&M, Xalphenos and Crementif.
+version = 6
+
+[Default]
+$width = 1280
+$height = 720
+$gameWidth = 1280
+$gameHeight = 720
+$aspectRatioWidth = 16
+$aspectRatioHeight = 9
+$ultrawideHUD:int = 1
+$padWidth = 854
+$padHeight = 480
+$gamePadWidth = 854
+$gamePadHeight = 480
+$shadowQuality = 1
+$anisotropy = 1
+$bloom = 1
+
+
+# Aspect Ratio
+
+[Preset]
+name = 16:9 (Default)
+category = Aspect Ratio
+$aspectRatioWidth = 16
+$aspectRatioHeight = 9
+
+[Preset]
+name = 16:10
+category = Aspect Ratio
+$aspectRatioWidth = 16
+$aspectRatioHeight = 10
+$ultrawideHUD:int = 0
+
+[Preset]
+name = 21:9
+category = Aspect Ratio
+$aspectRatioWidth = 21
+$aspectRatioHeight = 9
+
+[Preset]
+name = 32:9
+category = Aspect Ratio
+$aspectRatioWidth = 32
+$aspectRatioHeight = 9
+
+[Preset]
+name = 32:10
+category = Aspect Ratio
+$aspectRatioWidth = 32
+$aspectRatioHeight = 10
+
+[Preset]
+name = 48:9
+category = Aspect Ratio
+$aspectRatioWidth = 48
+$aspectRatioHeight = 9
+
+[Preset]
+name = 4:3
+category = Aspect Ratio
+$aspectRatioWidth = 4
+$aspectRatioHeight = 3
+$ultrawideHUD:int = 0
+
+[Preset]
+name = 5:4
+category = Aspect Ratio
+$aspectRatioWidth = 5
+$aspectRatioHeight = 4
+$ultrawideHUD:int = 0
+
+
+# TV Resolution
+
+# 16:9 Resolutions
+
+[Preset]
+name = 320x180
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 320
+$height = 180
+
+[Preset]
+name = 640x360
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 640
+$height = 360
+
+[Preset]
+name = 854x480
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 854
+$height = 480
+
+[Preset]
+name = 960x540
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 960
+$height = 540
+
+[Preset]
+name = 1280x720 (HD, Default)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+default = 1
+
+[Preset]
+name = 1600x900 (HD+)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1600
+$height = 900
+
+[Preset]
+name = 1920x1080 (Full HD)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1920
+$height = 1080
+
+[Preset]
+name = 2560x1440 (2K)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2560
+$height = 1440
+
+[Preset]
+name = 3200x1800
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3200
+$height = 1800
+
+[Preset]
+name = 3840x2160 (4K)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 2160
+
+[Preset]
+name = 5120x2880 (5K)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 2880
+
+[Preset]
+name = 7680x4320 (8K)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 4320
+
+[Preset]
+name = 10240x5760 (10K)
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 5760
+
+# 16:10 Resolutions
+
+[Preset]
+name = 1280x800
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1280
+$height = 800
+
+[Preset]
+name = 1440x900
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1440
+$height = 900
+
+[Preset]
+name = 1680x1050
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1680
+$height = 1050
+
+[Preset]
+name = 1920x1200
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 1920
+$height = 1200
+
+[Preset]
+name = 2560x1600
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 2560
+$height = 1600
+
+[Preset]
+name = 2880x1800
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 2880
+$height = 1800
+
+[Preset]
+name = 3840x2400
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 3840
+$height = 2400
+
+[Preset]
+name = 5120x3200
+category = TV Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 5120
+$height = 3200
+
+# 21:9 Resolutions
+
+[Preset]
+name = 1720x720
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 1720
+$height = 720
+
+[Preset]
+name = 2100x900
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2100
+$height = 900
+
+[Preset]
+name = 2560x1080
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 2560
+$height = 1080
+
+[Preset]
+name = 3440x1440
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3440
+$height = 1440
+
+[Preset]
+name = 3840x1600
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 1600
+
+[Preset]
+name = 4300x1800
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 4300
+$height = 1800
+
+[Preset]
+name = 5120x2160
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 2160
+
+[Preset]
+name = 6880x2880
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 6880
+$height = 2880
+
+[Preset]
+name = 10240x4320
+category = TV Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 4320
+
+# 32:9 Resolutions
+
+[Preset]
+name = 3840x1080
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 3840
+$height = 1080
+
+[Preset]
+name = 5120x1440
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 7680x2160
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 2160
+
+[Preset]
+name = 10240x2880
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 10240
+$height = 2880
+
+# 31:10 Resolutions
+
+[Preset]
+name = 3840x1200
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 3840
+$height = 1200
+
+[Preset]
+name = 5760x1800
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 5760
+$height = 1800
+
+[Preset]
+name = 7680x2400
+category = TV Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$width = 7680
+$height = 2400
+
+# 48:9 Resolutions
+
+[Preset]
+name = 5760x1080
+category = TV Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 5760
+$height = 1080
+
+[Preset]
+name = 7680x1440
+category = TV Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 7680
+$height = 1440
+
+[Preset]
+name = 11520x2160
+category = TV Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$width = 11520
+$height = 2160
+
+# 4:3 Resolutions
+
+[Preset]
+name = 800x600
+category = TV Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 800
+$height = 600
+
+[Preset]
+name = 1024x768
+category = TV Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1024
+$height = 768
+
+[Preset]
+name = 1280x960
+category = TV Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1280
+$height = 960
+
+[Preset]
+name = 1600x1200
+category = TV Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1600
+$height = 1200
+
+[Preset]
+name = 1920x1440
+category = TV Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$width = 1920
+$height = 1440
+
+# 5:4 Resolutions
+
+[Preset]
+name = 1280x1024
+category = TV Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 1280
+$height = 1024
+
+[Preset]
+name = 5760x1080 (3 Full HD )
+category = TV Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 5760
+$height = 1080
+
+[Preset]
+name = 8640x1620
+category = TV Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 8640
+$height = 1620
+
+[Preset]
+name = 14400x2700
+category = TV Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$width = 14400
+$height = 2700
+
+
+# Gamepad Resolution
+
+# 16:9 Resolutions
+
+[Preset]
+name = 320x180
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 320
+$padHeight = 180
+
+[Preset]
+name = 640x360
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 640
+$padHeight = 360
+
+[Preset]
+name = 854x480 (Default)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+default = 1
+
+[Preset]
+name = 960x540
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 960
+$padHeight = 540
+
+[Preset]
+name = 1280x720 (HD)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 1280
+$padHeight = 720
+
+[Preset]
+name = 1600x900 (HD+)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 1600
+$padHeight = 900
+
+[Preset]
+name = 1920x1080 (Full HD)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 1920
+$padHeight = 1080
+
+[Preset]
+name = 2560x1440 (2K)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 2560
+$padHeight = 1440
+
+[Preset]
+name = 3200x1800
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 3200
+$padHeight = 1800
+
+[Preset]
+name = 3840x2160 (4K)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 3840
+$padHeight = 2160
+
+[Preset]
+name = 5120x2880 (5K)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 5120
+$padHeight = 2880
+
+[Preset]
+name = 7680x4320 (8K)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 7680
+$padHeight = 4320
+
+[Preset]
+name = 10240x5760 (10K)
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 10240
+$padHeight = 5760
+
+# 16:10 Resolutions
+
+[Preset]
+name = 1280x800
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 1280
+$padHeight = 800
+
+[Preset]
+name = 1440x900
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 1440
+$padHeight = 900
+
+[Preset]
+name = 1680x1050
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 1680
+$padHeight = 1050
+
+[Preset]
+name = 1920x1200
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 1920
+$padHeight = 1200
+
+[Preset]
+name = 2560x1600
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 2560
+$padHeight = 1600
+
+[Preset]
+name = 2880x1800
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 2880
+$padHeight = 1800
+
+[Preset]
+name = 3840x2400
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 3840
+$padHeight = 2400
+
+[Preset]
+name = 5120x3200
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 5120
+$padHeight = 3200
+
+# 21:9 Resolutions
+
+[Preset]
+name = 1720x720
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 1720
+$padHeight = 720
+
+[Preset]
+name = 2100x900
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 2100
+$padHeight = 900
+
+[Preset]
+name = 2560x1080
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 2560
+$padHeight = 1080
+
+[Preset]
+name = 3440x1440
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 3440
+$padHeight = 1440
+
+[Preset]
+name = 3840x1600
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 3840
+$padHeight = 1600
+
+[Preset]
+name = 4300x1800
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 4300
+$padHeight = 1800
+
+[Preset]
+name = 5120x2160
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 5120
+$padHeight = 2160
+
+[Preset]
+name = 6880x2880
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 6880
+$padHeight = 2880
+
+[Preset]
+name = 10240x4320
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 10240
+$padHeight = 4320
+
+# 32:9 Resolutions
+
+[Preset]
+name = 3840x1080
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 3840
+$padHeight = 1080
+
+[Preset]
+name = 5120x1440
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 5120
+$padHeight = 1440
+
+[Preset]
+name = 7680x2160
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 7680
+$padHeight = 2160
+
+[Preset]
+name = 10240x2880
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 10240
+$padHeight = 2880
+
+# 31:10 Resolutions
+
+[Preset]
+name = 3840x1200
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 3840
+$padHeight = 1200
+
+[Preset]
+name = 5760x1800
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 5760
+$padHeight = 1800
+
+[Preset]
+name = 7680x2400
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
+$padWidth = 7680
+$padHeight = 2400
+
+# 48:9 Resolutions
+
+[Preset]
+name = 5760x1080
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 5760
+$padHeight = 1080
+
+[Preset]
+name = 7680x1440
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 7680
+$padHeight = 1440
+
+[Preset]
+name = 11520x2160
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
+$padWidth = 11520
+$padHeight = 2160
+
+# 4:3 Resolutions
+
+[Preset]
+name = 800x600
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$padWidth = 800
+$padHeight = 600
+
+[Preset]
+name = 1024x768
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$padWidth = 1024
+$padHeight = 768
+
+[Preset]
+name = 1280x960
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$padWidth = 1280
+$padHeight = 960
+
+[Preset]
+name = 1600x1200
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$padWidth = 1600
+$padHeight = 1200
+
+[Preset]
+name = 1920x1440
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
+$padWidth = 1920
+$padHeight = 1440
+
+# 5:4 Resolutions
+
+[Preset]
+name = 1280x1024
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$padWidth = 1280
+$padHeight = 1024
+
+[Preset]
+name = 5760x1080 (3 Full HD )
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$padWidth = 5760
+$padHeight = 1080
+
+[Preset]
+name = 8640x1620
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$padWidth = 8640
+$padHeight = 1620
+
+[Preset]
+name = 14400x2700
+category = Gamepad Resolution
+condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
+$padWidth = 14400
+$padHeight = 2700
+
+
+# Shadows
+
+[Preset]
+name = Low (50%)
+category = Shadows
+$shadowQuality = 0.5
+
+[Preset]
+name = Medium (100%, Default)
+category = Shadows
+default = 1
+
+[Preset]
+name = High (200%)
+category = Shadows
+$shadowQuality = 2
+
+[Preset]
+name = Ultra (300%)
+category = Shadows
+$shadowQuality = 3
+
+[Preset]
+name = Extreme (400%)
+category = Shadows
+$shadowQuality = 4
+
+
+# Bloom Intensity
+
+[Preset]
+name = 0%
+category = Bloom Intensity
+$bloom = 0
+
+[Preset]
+name = 50%
+category = Bloom Intensity
+$bloom = 0.5
+
+[Preset]
+name = 100%
+category = Bloom Intensity
+default = 1
+
+[Preset]
+name = 125%
+category = Bloom Intensity
+$bloom = 1.25
+
+[Preset]
+name = 150%
+category = Bloom Intensity
+$bloom = 1.5
+
+
+# Anisotropic Filtering
+
+[Preset]
+name = 1x (Default)
+category = Anisotropic Filtering
+default = 1
+
+[Preset]
+name = 2x
+category = Anisotropic Filtering
+$anisotropy = 2
+
+[Preset]
+name = 4x
+category = Anisotropic Filtering
+$anisotropy = 4
+
+[Preset]
+name = 8x
+category = Anisotropic Filtering
+$anisotropy = 8
+
+[Preset]
+name = 16x
+category = Anisotropic Filtering
+$anisotropy = 16
+
+
+
+# Anisotropic Filtering
+
+[TextureRedefine]
+tileModesExcluded = 0x1 # ignore cpu processed textures
+formatsExcluded = 0x1,0x19,0x1a,0x1f,0x122,0x806,0x80e,0x816,0x81e,0x820,0x823 # ignore viewports and cubemaps
+overwriteAnisotropy = $anisotropy
+
+# TV
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x19
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x80e
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x806
+overwriteFormat = 0x80e
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x806
+overwriteFormat = 0x80e
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x806
+overwriteFormat = 0x80e
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 360
+
+# Fog
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 360
+
+# Blur
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x1,0x19,0x80e,0x816
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x1,0x19,0x816
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 360
+
+[TextureRedefine]
+width = 512
+height = 256
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 512
+overwriteHeight = ($height / $gameHeight) * 256
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x19
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 192
+
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x19
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 180
+
+# Bloom
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 192
+
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 180
+
+[TextureRedefine]
+width = 256
+height = 128
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 128
+
+[TextureRedefine]
+width = 160
+height = 96
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 96
+
+[TextureRedefine]
+width = 160
+height = 90
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 90
+
+[TextureRedefine]
+width = 128
+height = 64
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 64
+
+[TextureRedefine]
+width = 96
+height = 48
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 96
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine]
+width = 80
+height = 45
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 80
+overwriteHeight = ($height / $gameHeight) * 45
+
+[TextureRedefine]
+width = 64
+height = 32
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 32
+
+[TextureRedefine]
+width = 40
+height = 22
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 40
+overwriteHeight = ($height / $gameHeight) * 22
+
+[TextureRedefine]
+width = 32
+height = 16
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 32
+overwriteHeight = ($height / $gameHeight) * 16
+
+[TextureRedefine]
+width = 24
+height = 16
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 24
+overwriteHeight = ($height / $gameHeight) * 16
+
+[TextureRedefine]
+width = 20
+height = 11
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 20
+overwriteHeight = ($height / $gameHeight) * 11
+
+# Inkopolis News
+
+[TextureRedefine]
+width = 1024
+height = 576
+formats = 0x80e
+overwriteWidth = ($width / $gameWidth) * 1024
+overwriteHeight = ($height / $gameHeight) * 576
+
+[TextureRedefine]
+width = 1024
+height = 576
+formats = 0x19
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1024
+overwriteHeight = ($height / $gameHeight) * 576
+
+[TextureRedefine]
+width = 1024
+height = 576
+formats = 0x806
+overwriteFormat = 0x80e
+overwriteWidth = ($width / $gameWidth) * 1024
+overwriteHeight = ($height / $gameHeight) * 576
+
+[TextureRedefine]
+width = 1024
+height = 576
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 1024
+overwriteHeight = ($height / $gameHeight) * 576
+
+[TextureRedefine]
+width = 1024
+height = 576
+formats = 0x1a
+overwriteFormat = 0x1f
+overwriteWidth = ($width / $gameWidth) * 1024
+overwriteHeight = ($height / $gameHeight) * 576
+
+[TextureRedefine]
+width = 256
+height = 256
+formats = 0x1
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 256
+
+# Inkopolis News Blur
+
+[TextureRedefine]
+width = 512
+height = 288
+formats = 0x1
+overwriteWidth = ($width / $gameWidth) * 512
+overwriteHeight = ($height / $gameHeight) * 288
+
+[TextureRedefine]
+width = 512
+height = 288
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 512
+overwriteHeight = ($height / $gameHeight) * 288
+
+[TextureRedefine]
+width = 256
+height = 256
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 256
+
+# Inkopolis News Bloom
+
+[TextureRedefine]
+width = 256
+height = 144
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 144
+
+[TextureRedefine]
+width = 128
+height = 128
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 128
+
+[TextureRedefine]
+width = 128
+height = 80
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 80
+
+[TextureRedefine]
+width = 128
+height = 72
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 72
+
+[TextureRedefine]
+width = 64
+height = 64
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 64
+
+[TextureRedefine]
+width = 64
+height = 48
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine]
+width = 64
+height = 36
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 36
+
+# overwriting causes shadows to be pitch black
+# overwriting format causes lighting to be pitch black
+#[TextureRedefine]
+#width = 32
+#height = 32
+#formats = 0x816
+
+[TextureRedefine]
+width = 32
+height = 18
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 32
+overwriteHeight = ($height / $gameHeight) * 18
+
+# overwriting causes shadows to be pitch black
+#[TextureRedefine]
+#width = 16
+#height = 16
+#formats = 0x816
+
+[TextureRedefine]
+width = 16
+height = 9
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 16
+overwriteHeight = ($height / $gameHeight) * 9
+
+# Zoom
+
+[TextureRedefine]
+width = 512
+height = 228
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 512
+overwriteHeight = ($height / $gameHeight) * 228
+
+[TextureRedefine]
+width = 448
+height = 256
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 448
+overwriteHeight = ($height / $gameHeight) * 256
+
+[TextureRedefine]
+width = 448
+height = 252
+formats = 0x816
+overwriteFormat = 0x823
+overwriteWidth = ($width / $gameWidth) * 448
+overwriteHeight = ($height / $gameHeight) * 252
+
+# Gamepad
+
+[TextureRedefine]
+width = 864
+height = 480
+overwriteWidth = ($padWidth / $gamePadWidth) * 864
+overwriteHeight = ($padHeight / $gamePadHeight) * 480
+
+[TextureRedefine]
+width = 854
+height = 480
+overwriteWidth = ($padWidth / $gamePadWidth) * 854
+overwriteHeight = ($padHeight / $gamePadHeight) * 480
+
+[TextureRedefine]
+width = 848
+height = 480
+overwriteWidth = ($padWidth / $gamePadWidth) * 848
+overwriteHeight = ($padHeight / $gamePadHeight) * 480
+
+# Gamepad Blur
+
+[TextureRedefine]
+width = 448
+height = 240
+overwriteWidth = ($padWidth / $gamePadWidth) * 448
+overwriteHeight = ($padHeight / $gamePadHeight) * 240
+
+[TextureRedefine]
+width = 424
+height = 240
+overwriteWidth = ($padWidth / $gamePadWidth) * 424
+overwriteHeight = ($padHeight / $gamePadHeight) * 240
+
+# Gamepad Bloom
+
+[TextureRedefine]
+width = 224
+height = 128
+overwriteWidth = ($padWidth / $gamePadWidth) * 224
+overwriteHeight = ($padHeight / $gamePadHeight) * 128
+
+[TextureRedefine]
+width = 212
+height = 120
+overwriteWidth = ($padWidth / $gamePadWidth) * 212
+overwriteHeight = ($padHeight / $gamePadHeight) * 120
+
+[TextureRedefine]
+width = 106
+height = 60
+overwriteWidth = ($padWidth / $gamePadWidth) * 106
+overwriteHeight = ($padHeight / $gamePadHeight) * 60
+
+[TextureRedefine]
+width = 53
+height = 30
+overwriteWidth = ($padWidth / $gamePadWidth) * 53
+overwriteHeight = ($padHeight / $gamePadHeight) * 30
+
+[TextureRedefine]
+width = 26
+height = 15
+overwriteWidth = ($padWidth / $gamePadWidth) * 26
+overwriteHeight = ($padHeight / $gamePadHeight) * 15
+
+[TextureRedefine]
+width = 13
+height = 7
+overwriteWidth = ($padWidth / $gamePadWidth) * 13
+overwriteHeight = ($padHeight / $gamePadHeight) * 7
+
+# Multiplayer Player Icon
+
+[TextureRedefine]
+width = 256
+height = 256
+formats = 0x1a
+overwriteFormat = 0x1f
+
+# Shadows
+
+[TextureRedefine] # Shadows
+width = 2048
+height = 2048
+formats = 0x5
+overwriteWidth = $shadowQuality * 2048
+overwriteHeight = $shadowQuality * 2048
+
+[TextureRedefine] # Squid Sisters Shadows
+width = 1664
+height = 1648
+formats = 0x5
+overwriteWidth = $shadowQuality * 1664
+overwriteHeight = $shadowQuality * 1648
+
+[TextureRedefine] # Squid Sisters Shadows
+width = 1640
+height = 1640
+formats = 0x5
+overwriteWidth = $shadowQuality * 1640
+overwriteHeight = $shadowQuality * 1640
+
+[TextureRedefine] # Performance Shadows
+width = 1024
+height = 1024
+formats = 0x5
+overwriteWidth = $shadowQuality * 1024
+overwriteHeight = $shadowQuality * 1024

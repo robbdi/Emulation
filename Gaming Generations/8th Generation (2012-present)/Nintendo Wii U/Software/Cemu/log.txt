@@ -1,0 +1,164 @@
+[09:30:35] ------- Init Cemu 1.26.2f -------
+[09:30:35] Init Wii U memory space (base: 0x000001e5a6e60000)
+[09:30:35] mlc01 path: I:/LaunchBox/Emulators/Cemu/mlc01/
+[09:30:35] CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+[09:30:35] RAM: 65435MB
+[09:30:35] Used CPU extensions: SSSE3, SSE4.1, AVX2, AES-NI
+[09:30:35] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
+[09:30:35] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
+[09:30:37] COS: System fonts found. Generated shareddata (26609KB)
+[09:30:37] ------- Loaded title -------
+[09:30:37] TitleId: 00050000-1010af00
+[09:30:37] TitleVersion: v0
+[09:30:37] Update path: I:/LaunchBox/Emulators/Cemu/mlc01/usr/title/0005000e/1010af00/ (not present)
+[09:30:37] DLC path:    I:/LaunchBox/Emulators/Cemu/mlc01/usr/title/0005000c/1010af00/ (not present)
+[09:30:37] Save path:   I:/LaunchBox/Emulators/Cemu/mlc01/usr/save/00050000/1010AF00/user/ (not present)
+[09:30:37] Shader cache file: shaderCache/transferable/000500001010af00.bin
+[09:30:37] gameprofile path: gameProfiles/default/000500001010af00.ini
+[09:30:37] RPX hash (updated): b57ad7ba
+[09:30:37] RPX hash (base): b57ad7ba
+[09:30:37] ------- Init Vulkan graphics backend -------
+[09:30:37] Vulkan instance version: 1.3
+[09:30:37] Using GPU: NVIDIA GeForce RTX 3080
+[09:30:37] Driver version: 512.95
+[09:30:37] VulkanLimits: UBAlignment 64 nonCoherentAtomSize 64
+[09:30:37] Using available debug function: vkCreateDebugUtilsMessengerEXT()
+[09:30:37] Vulkan device memory info:
+[09:30:37] Heap 0 - Size 10078MB Flags 0x00000001
+[09:30:37] Heap 1 - Size 32717MB Flags 0x00000000
+[09:30:37] Heap 2 - Size 214MB Flags 0x00000001
+[09:30:37] Memory 0 - HeapIndex 1 Flags 0x00000000
+[09:30:37] Memory 1 - HeapIndex 0 Flags 0x00000001
+[09:30:37] Memory 2 - HeapIndex 1 Flags 0x00000006
+[09:30:37] Memory 3 - HeapIndex 1 Flags 0x0000000e
+[09:30:37] Memory 4 - HeapIndex 2 Flags 0x00000007
+[09:30:37] Loaded module 'launcher' with checksum 0x6d217ff6
+[09:30:37] RPL link time: 16ms
+[09:30:37] HLE scan time: 0ms
+[09:30:37] ------- Active settings -------
+[09:30:37] CPU-Mode: Multi-core recompiler
+[09:30:37] Load shared libraries: true
+[09:30:37] Use precompiled shaders: auto
+[09:30:37] Full sync at GX2DrawDone: true
+[09:30:37] Async compile: true
+[09:30:37] Console language: English
+[09:30:37] Vulkan-Info: Allocated additional memory for textures from device-local memory
+[09:30:37] ------- Activate graphic packs -------
+[09:30:37] ------- Init Audio backend -------
+[09:30:37] DirectSound: available
+[09:30:37] XAudio 2.8: available
+[09:30:37] ------- Run title -------
+[09:30:37] Shader cache loaded with 7 shaders. Commited mem 2MB. Took 17ms
+[09:30:37] Disable multi-threaded pipeline loading due to an issue with Nvidia drivers
+[09:30:37] Recompiler initialized. CPU extensions: LZCNT MOVBE AVX 
+[09:30:38] Loaded module 'game_wiiu_rpl' with checksum 0x9f60e8d7
+[09:30:38] IOSU_ACT: using account default in first slot
+
+Crashlog for Cemu 1.26.2f
+Date: 12-06-2022 14:30:40
+
+-----------------------------------------
+   Stack trace
+-----------------------------------------
+0x00007ff7ec4b0c0a +0x00250c0a Cemu.exe         wxMainWindowCreated
+0x00007ff7ec4b10ff +0x002510ff Cemu.exe         wxMainWindowCreated
+0x00007ff7ec4b24ad +0x002524ad Cemu.exe         wxMainWindowCreated
+0x00007ffd6bd84f4c +0x00154f4c KERNELBASE.dll   UnhandledExceptionFilter
+0x00007ffd6bcf0e4c +0x000c0e4c KERNELBASE.dll   TlsGetValue
+0x00007ffd6e79f1a7 +0x0008f1a7 ntdll.dll        _C_specific_handler
+0x00007ffd6e7b412f +0x000a412f ntdll.dll        _chkstk
+0x00007ffd6e72e4e6 +0x0001e4e6 ntdll.dll        RtlFindCharInUnicodeString
+0x00007ffd6e7b311e +0x000a311e ntdll.dll        KiUserExceptionDispatcher
+0x00007ff7ec3e7bd0 +0x00187bd0 Cemu.exe         gpu7Texture_forceInvalidateByImagePtr
+0x00007ff7ec3e7d65 +0x00187d65 Cemu.exe         gpu7Texture_forceInvalidateByImagePtr
+0x00007ff7ec3f6a5f +0x00196a5f Cemu.exe         coreinitAPI_OSYieldThread
+0x00007ff7ec625644 +0x003c5644 Cemu.exe         PPCRecompiler_init
+0x000001e5a320be93 +0x00000000 NULL             PPCRecompiler_init
+Exception 0xc0000005 at 0x7ff7ec3e7bd0(+0x187bd0) in module Cemu.exe
+cemu.exe at 0x7ff7ec260000
+
+RAX=0000000000000001 RBX=000001e5b4e94fd4 RCX=000001e58818e8b0 RDX=000001e5a3cf31c0
+RSP=0000002a689ff760 RBP=0000000000000000 RDI=0000000000000000 RSI=0000000000000000
+R8 =0000000000000000 R9 =0000000000000800 R10=0000000000000000 R11=0000000000001000
+R12=800000028000000d R13=000001e5a6e60000 R14=00007ff7ed211b40 R15=0000000000000014
+
+-----------------------------------------
+   Game info
+-----------------------------------------
+Game: Battle for Earth [US v0]
+TitleId: 500001010af00
+RPXHash: b57ad7ba
+
+-----------------------------------------
+   Active PPC instance
+-----------------------------------------
+IP 0x00e1b068 LR 0x03385774 Thread 0x0e034fd4
+
+r0 =03371738 r1 =0e22fd18 r2 =10008000 r3 =00000000 r4 =0e22fd38 r5 =00000014 r6 =00000004 r7 =14bfbea0
+r8 =00000001 r9 =149a0000 r10=00000006 r11=00e1b068 r12=00000002 r13=00000000 r14=00000000 r15=00000000
+r16=00000000 r17=00000000 r18=00000000 r19=00000000 r20=00000000 r21=00000000 r22=04c00000 r23=00000000
+r24=103dd218 r25=104eab94 r26=1f9d4bf4 r27=00000000 r28=104eab28 r29=00000000 r30=0e22fd38 r31=00000014
+r24=103dd218 r25=104eab94 r26=1f9d4bf4 r27=00000000 r28=104eab28 r29=00000000 r30=0e22fd38 r31=00000014
+
+-----------------------------------------
+   PPC stack trace
+-----------------------------------------
+[09:30:40] Trace starting at SP/r1 0e22fd18
+[09:30:40] SP 0e22fd30 ReturnAddr 03371738
+[09:30:40] SP 0e22fd78 ReturnAddr 027c4b5c
+[09:30:40] SP 0e22fde0 ReturnAddr 0206f6e4
+[09:30:40] SP 0e22fe00 ReturnAddr 0207bbb0
+[09:30:40] SP 0e22ff50 ReturnAddr 02b48184
+[09:30:40] SP 0e230000 ReturnAddr 02b48260
+[09:30:40] SP 0e230010 ReturnAddr 02f0c904
+[09:30:40] SP 0e230040 ReturnAddr 02f0cac8
+[09:30:40] SP 0e230058 ReturnAddr 02f0b814
+[09:30:40] SP 0e230078 ReturnAddr 02f0b58c
+[09:30:40] SP 0e230088 ReturnAddr 02642e24
+[09:30:40] SP 0e2300e0 ReturnAddr 0205306c
+[09:30:40] SP 0e2300f8 ReturnAddr 0200105c
+[09:30:40] SP 0e235cd8 ReturnAddr 02002338
+[09:30:40] SP 0e235cf0 ReturnAddr 00e00000
+
+-----------------------------------------
+   PPC stack dump
+-----------------------------------------
+[0x0e22fd18] 0e22fd30 00000000 06300001 1fb71268 - 1fedf500 14b20000 0e22fd78 03371738
+[0x0e22fd38] 000e0002 8000717e ebc99948 42c80000 - ffffffff 104eaaf0 1fedf500 1f9c8d50
+[0x0e22fd58] 00000000 00000000 00000000 02062a6c - 00000000 00000000 4002ce82 1fb71268
+[0x0e22fd78] 0e22fde0 027c4b5c 0e22fd98 02081498 - 1f9cc904 1f9d4ca8 0e22fe48 1f9d4bf4
+[0x0e22fd98] 0e22fdb8 02081764 1f9cc904 0e22fe9c - 0e22fe4c 0e22fe9b 1f9d4b2c 0e22fe48
+[0x0e22fdb8] 0e22fe00 0208204c 104eab28 104eaaf0 - 00000000 1f9c8d50 400059d0 48ddde60
+[0x0e22fdd8] 00000000 00000000 0e22fe00 0206f6e4 - 1f9d4b1c 00000000 103dd1a0 00000000
+[0x0e22fdf8] 104eaaf0 104eab84 0e22ff50 0207bbb0 - 0e22fe10 00000000 005f536b 69704d61
+[0x0e22fe18] 6e616765 72009608 0e22fe10 0e22fe20 - 00000000 00000000 0e22fe28 0e22fe28
+[0x0e22fe38] 00000000 17af9608 1f9cc8f0 103dd218 - 1f9d4bf4 1f9d4b1c 1f9ccad4 103dd2a4
+[0x0e22fe58] 103dd2a4 028c3e58 f0000008 04c00000 - 00000000 00000020 f0000008 04c00000
+[0x0e22fe78] 00000000 0e22ff08 475f536b 69704d61 - 6e616765 72009488 0e22fe8d 0e22fe90
+[0x0e22fe98] 00000000 78c26368 1bbae74d 98fecbe1 - 5b2adf6a 00000000 00000000 00000000
+[0x0e22feb8] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e22fed8] 00000000 00000000 00000000 00000000 - 00000000 00000000 f0000008 04c00000
+[0x0e22fef8] f0000008 04c00000 f0000008 04c00000 - 04c00000 00000000 00000000 0e22ff0c
+
+-----------------------------------------
+   PPC threads
+-----------------------------------------
+0e335d10 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 100 Pri 32 Name {SYS Thread Terminator Core 0}
+0e33a410 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 010 Pri 32 Name {SYS Thread Terminator Core 1}
+0e33eb10 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 001 Pri 32 Name {SYS Thread Terminator Core 2}
+0e012880 Ent 00e0000c IP 00e0000c LR 00e00000 WAITING   Aff 111 Pri 32 Name Alarm Thread
+0e002008 Ent 00e00010 IP 00e00010 LR 00e00000 WAITING   Aff 111 Pri 32 Name Callback Thread
+0e034fd4 Ent 00e4fb5c IP 02b42028 LR 02078a50 RUNNING   Aff 010 Pri 80 Name Default Core 1
+0e37ee58 Ent 00e4fb80 IP 00e4fb80 LR 00e00000 WAITING   Aff 010 Pri 48 Name GX2 event callback
+17afe380 Ent 02f1a154 IP 00e1e864 LR 022659ac WAITING   Aff 001 Pri 69 Name FG Worker 0
+17afec00 Ent 02f1a154 IP 00e1e864 LR 0226710c WAITING   Aff 100 Pri 69 Name Floodgate Submit Thread
+17b05880 Ent 02f1a154 IP 00e1e658 LR 02b39b54 WAITING   Aff 001 Pri 69 Name BundleReaderThread
+17b05f60 Ent 02f1a154 IP 00e1e658 LR 02b8b458 WAITING   Aff 100 Pri 80 Name BundleLoaderThread
+103da3c0 Ent 02f1a154 IP 00e1e658 LR 02f17f00 WAITING   Aff 001 Pri 69 Name TaskWorker1
+103dc920 Ent 02f1a154 IP 00e1d708 LR 02e7eecc WAITING   Aff 001 Pri 80 Name AssetLoaderThread
+10406da0 Ent 02f1a154 IP 00e1e864 LR 02ef8a84 WAITING   Aff 100 Pri 64 Name SceneGraphUpdate HW Thread 1
+104074e0 Ent 02f1a154 IP 00e1e864 LR 02ef8a84 WAITING   Aff 001 Pri 64 Name SceneGraphUpdate HW Thread 2
+10407c20 Ent 02f1a154 IP 00e1e658 LR 02e055ac WAITING   Aff 100 Pri 79 Name CloneSceneGraph
+10408300 Ent 02f1a154 IP 00e1e864 LR 02ef89d4 WAITING   Aff 001 Pri 80 Name SceneGraphPreLoadThread
+1040c100 Ent 02f1a154 IP 00e1e658 LR 027c4138 WAITING   Aff 100 Pri 64 Name ProcessSwitch0
+1040c7e0 Ent 02f1a154 IP 00e1e658 LR 027c4138 WAITING   Aff 001 Pri 64 Name ProcessSwitch2

@@ -1,0 +1,36 @@
+[General]
+emulate = Wii U Pro Controller
+api = XInput
+controller = 814cec70-2522-11eb-8005-444553540000
+
+[Controller]
+rumble = 0
+leftRange = 1
+rightRange = 1
+leftDeadzone = 0.2
+rightDeadzone = 0.2
+buttonThreshold = 0.5
+1 = button_2
+2 = button_1
+3 = button_8
+4 = button_4
+5 = button_10
+6 = button_20
+7 = button_100000000
+8 = button_800000000
+9 = button_40
+10 = button_80
+12 = button_4000000
+13 = button_8000000
+14 = button_10000000
+15 = button_20000000
+16 = button_100
+17 = button_200
+18 = button_80000000
+19 = button_2000000000
+20 = button_1000000000
+21 = button_40000000
+22 = button_400000000
+23 = button_10000000000
+24 = button_8000000000
+25 = button_200000000

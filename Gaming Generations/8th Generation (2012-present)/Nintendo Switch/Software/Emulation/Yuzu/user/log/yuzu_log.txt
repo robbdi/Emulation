@@ -1,0 +1,172 @@
+[   1.018080] Input <Info> input_common\drivers\udp_client.cpp:UDPClient:140: Udp Initialization started
+[   1.018103] Input <Info> input_common\drivers\udp_client.cpp:StartCommunication:332: Starting communication with UDP input server on 127.0.0.1:26760
+[   1.124372] Frontend <Info> yuzu\main.cpp:GMainWindow:299: yuzu Version: yuzu 1061
+[   1.124407] Frontend <Info> yuzu\main.cpp:LogRuntimes:219: MSVC Compiler: 1929 Runtime: 14.29.30139.0
+[   1.124409] Frontend <Info> yuzu\main.cpp:GMainWindow:315: Host CPU: Intel(R) Core(TM) i5-4590S CPU @ 3.00GHz | AVX2 | FMA
+[   1.124671] Frontend <Info> yuzu\main.cpp:GMainWindow:317: Host OS: Windows 10 Version 21H2 (Build 19044.1741)
+[   1.124719] Frontend <Info> yuzu\main.cpp:GMainWindow:319: Host RAM: 15.91 GiB
+[   1.124725] Frontend <Info> yuzu\main.cpp:GMainWindow:320: Host Swap: 16.00 GiB
+[  48.097480] Render.Vulkan <Error> video_core\vulkan_common\vulkan_instance.cpp:CreateInstance:116: Vulkan library not available
+[  48.097804] Frontend <Error> yuzu\check_vulkan.cpp:CheckVulkan:46: Failed to initialize Vulkan: VK_ERROR_INITIALIZATION_FAILED
+[  49.547255] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.27.0) applied successfully
+[  49.651373] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  49.736029] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.14.0) applied successfully
+[  49.869287] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  49.965708] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  50.024821] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  50.098423] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  50.172802] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  50.256273] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  50.340779] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.9.0) applied successfully
+[  50.413609] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.8.0) applied successfully
+[  50.494398] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  50.649318] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  50.729262] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  50.792877] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  50.868440] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  51.004060] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  51.086748] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  51.170851] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  51.247874] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  51.327539] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  51.413143] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  51.466871] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  51.578431] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  51.659475] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  51.766503] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  51.848267] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  51.923268] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  52.022582] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.8.0) applied successfully
+[  52.081948] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  52.209754] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.7.0) applied successfully
+[  52.289252] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  52.364405] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.12.0) applied successfully
+[  52.434130] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  52.528209] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  52.586559] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  52.683557] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.57.0) applied successfully
+[  52.750792] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  52.824873] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  52.896624] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.014025] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  53.110162] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  53.167517] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.297267] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.393075] Loader <Warning> core\loader\loader.cpp:GetLoader:264: File Pokemon Brilliant Diamond  [0100000011D90000].nsp has a different type (unknown) than its extension.
+[  53.544960] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.610771] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.674955] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  53.749841] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  53.851693] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  53.929823] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  54.334123] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.41.0) applied successfully
+[  54.408005] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  54.578869] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  54.660156] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  56.176691] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  56.265374] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  56.374094] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  56.543055] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  56.609649] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  56.700059] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.22.0) applied successfully
+[  56.796241] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  56.888018] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  56.960776] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.12.0) applied successfully
+[  57.030946] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.131419] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  57.206110] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  57.273240] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.27.0) applied successfully
+[  57.292441] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.317379] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.14.0) applied successfully
+[  57.360335] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  57.384091] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  57.412462] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  57.436824] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  57.467829] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  57.502731] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.520918] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.9.0) applied successfully
+[  57.553618] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.8.0) applied successfully
+[  57.582788] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  57.628754] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.648537] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.656138] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  57.677502] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  57.729404] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  57.764527] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  57.810587] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  57.835549] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.883389] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.907963] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  57.929751] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  57.972920] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  57.997723] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  58.015914] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  58.056192] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  58.080695] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.097908] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.8.0) applied successfully
+[  58.114120] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.151742] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.7.0) applied successfully
+[  58.196940] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  58.217032] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.12.0) applied successfully
+[  58.236909] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  58.257402] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  58.277442] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  58.311275] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.57.0) applied successfully
+[  58.331268] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.372242] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.398525] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.477929] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  58.496159] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.3.0) applied successfully
+[  58.518304] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.565329] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.592112] Loader <Warning> core\loader\loader.cpp:GetLoader:264: File Pokemon Brilliant Diamond  [0100000011D90000].nsp has a different type (unknown) than its extension.
+[  58.624943] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.646727] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.666712] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.693733] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  58.710522] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  58.729545] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.6.0) applied successfully
+[  58.754907] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.0.0) applied successfully
+[  58.883915] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.41.0) applied successfully
+[  58.901757] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.929225] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  58.941354] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  58.963102] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  58.990985] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  59.015484] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  59.066771] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.4.0) applied successfully
+[  59.082149] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  59.107047] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.22.0) applied successfully
+[  59.129752] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  59.150676] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  59.175458] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.12.0) applied successfully
+[  59.194820] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.1.0) applied successfully
+[  59.235399] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.2.0) applied successfully
+[  59.249156] Loader <Info> core\file_sys\patch_manager.cpp:PatchRomFS:443:     RomFS: Update (v0.5.0) applied successfully
+[  59.395381] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.395904] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.395978] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396024] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396063] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396071] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396076] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396080] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396084] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396088] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396093] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396099] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396103] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396109] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396114] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396118] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396123] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396129] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396134] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396140] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396145] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.396151] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.422997] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.423030] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.423475] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.423492] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detected in the games directory. Reloading game list.
+[  59.423500] Frontend <Info> yuzu\game_list.cpp:RefreshGameDirectory:806: Change detect
