@@ -1,7 +1,0 @@
-[Gambit272]
-moduleMatches = 0xF7A78809
-
-# List of maps are in maplist.txt
-0x100F9CE0 = .string "Fld_Tutorial00_Ttr" # Tutorial (Original: Fld_Tutorial00_Ttr)
-0x10101F38 = .string "Fld_World00_Wld" # Octo Valley (Original: Fld_World00_Wld)
-0x100F8958 = .string "Fld_ShootingRange_Shr" # Shooting Range (Original: Fld_ShootingRange_Shr)

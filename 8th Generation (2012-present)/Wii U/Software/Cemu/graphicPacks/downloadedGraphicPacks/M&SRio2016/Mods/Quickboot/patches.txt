@@ -1,4 +1,0 @@
-[unison]
-moduleMatches = 0xD44C22E3
-
-0x0255C4A4 = li r3, $state # StateSaveInit now goes to whatever is chosen in Cemu (previously StateAdvertise)
