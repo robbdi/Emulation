@@ -1,0 +1,13 @@
+Created QEMU launch parameters: I:\Launchbox\Emulators\Xemu\xemu.exe -machine xbox,bootrom=I:\Launchbox\Emulators\Xemu\bios\mcpx_1.0.bin,short-animation=on,kernel-irqchip=off,avpack=hdtv -device smbus-storage,file=I:\Launchbox\Emulators\Xemu\bios\eeprom.bin -bios I:\Launchbox\Emulators\Xemu\bios\Complex_4627.bin -m 128 -drive index=0,media=disk,file=I:\Launchbox\Emulators\Xemu\hdd\xbox_hdd.qcow2,locked=on -drive index=1,media=cdrom,file=R:\Microsoft Xbox\roms\Halo 2.iso -display xemu -audiodev none,id=snd0 -full-screen 
+xemu_version: 0.7.17
+xemu_branch: master
+xemu_commit: 66b57dca9c5c461c13cd44f977bd357677200be3
+xemu_date: Fri May 20 01:10:05 UTC 2022
+xemu_settings_set_path: config path: .\config\xemu.toml
+CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+OS_Version: Windows
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 3080/PCIe/SSE2
+GL_VERSION: 4.0.0 NVIDIA 512.95
+GL_SHADING_LANGUAGE_VERSION: 4.00 NVIDIA via Cg compiler
+audio: Device ac97: audiodev default parameter is deprecated, please specify audiodev=snd0

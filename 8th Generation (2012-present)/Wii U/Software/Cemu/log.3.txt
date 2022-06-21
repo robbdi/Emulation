@@ -1,0 +1,121 @@
+[17:27:41] ------- Init Cemu 1.25.0b -------
+[17:27:41] Init Wii U memory space (base: 0x217bd2c0000)
+[17:27:41] mlc01 path: I:/LaunchBox/Emulators/Cemu/mlc01/
+[17:27:41] CPU: Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+[17:27:41] RAM: 8102MB
+[17:27:41] Used CPU extensions: SSSE3, SSE4.1, AVX2, AES-NI
+[17:27:41] loading a file without valid meta information: meta.xml missing
+[17:27:41] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
+[17:27:41] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
+[17:27:43] ------- Loaded title -------
+[17:27:43] TitleId: ffffffff-00000000
+[17:27:43] TitleVersion: v0
+[17:27:43] Update path:  (not present)
+[17:27:43] AOC path:     (not present)
+[17:27:43] Save path:   I:/LaunchBox/Emulators/Cemu/mlc01/usr/save/FFFFFFFF/00000000/user/ (not present)
+[17:27:43] Shader cache file: shaderCache\transferable\ffffffff00000000.bin
+[17:27:43] gameprofile path: gameProfiles\default\ffffffff00000000.ini
+[17:27:43] RPX hash (updated): 00000000
+[17:27:43] RPX hash (base): 00000000
+[17:27:43] Creating OpenGL canvas
+[17:27:43] RPL link time: 0ms
+[17:27:43] HLE scan time: 0ms
+[17:27:43] ------- Active settings -------
+[17:27:43] CPU-Mode: Multi-core recompiler
+[17:27:43] Load shared libraries: true
+[17:27:43] Use precompiled shaders: auto
+[17:27:43] Full sync at GX2DrawDone: true
+[17:27:43] Console language: English
+[17:27:43] ------- Init OpenGL graphics backend -------
+[17:27:43] GL_VENDOR: NVIDIA Corporation
+[17:27:43] GL_RENDERER: GeForce GTX 1650/PCIe/SSE2
+[17:27:43] GL_VERSION: 4.6.0 NVIDIA 461.92
+[17:27:43] OpenGL extensions:
+[17:27:43] ARB_clip_control: available
+[17:27:43] ARB_get_program_binary: available
+[17:27:43] ARB_clear_texture: available
+[17:27:43] ARB_copy_image: available
+[17:27:43] NV_depth_buffer_float: available
+[17:27:43] ------- Activate graphic packs -------
+[17:27:43] ------- Init Audio backend -------
+[17:27:43] DirectSound: available
+[17:27:43] XAudio 2.8: available
+[17:27:43] ------- Run title -------
+[17:27:43] Recompiler initialized. CPU extensions: LZCNT MOVBE AVX 
+
+Crashlog for Cemu 1.25.0b
+Date: 17-10-2021 00:27:43
+
+-----------------------------------------
+   Stack trace
+-----------------------------------------
+0x00007ff7085419aa +0x001a19aa Cemu.exe         GraphicPack2_GetDescription
+0x00007ff708541ec4 +0x001a1ec4 Cemu.exe         GraphicPack2_GetDescription
+0x00007ff708543167 +0x001a3167 Cemu.exe         GraphicPack2_GetDescription
+0x00007ffd1dea8a4c +0x00078a4c ntdll.dll        RtlDeleteAce
+0x00007ffd1de81276 +0x00051276 ntdll.dll        RtlRaiseException
+0x00007ffd1ded0cae +0x000a0cae ntdll.dll        KiUserExceptionDispatcher
+0x00007ff70867def4 +0x002ddef4 Cemu.exe         rpl_loadFromMem
+0x00007ff70867ee31 +0x002dee31 Cemu.exe         rpl_loadFromMem
+0x00007ff70865cd4d +0x002bcd4d Cemu.exe         wxCheckTree::~wxCheckTree
+0x00007ff7087baf4f +0x0041af4f Cemu.exe         osLib_registerHLEFunction
+0x00007ffd1b9832e1 +0x000732e1 KERNELBASE.dll   RegQueryInfoKeyA
+0x00007ffd1deaff1a +0x0007ff1a ntdll.dll        RtlUserFiberStart
+Exception 0x80000003 at 0x7ff70867def4(+0x2ddef4) in module Cemu.exe
+cemu.exe at 0x7ff7083a0000
+
+RAX=00000217cb788103 RBX=00000218c3955350 RCX=00000217cb788104 RDX=0000000000000000
+RSP=000000c3f19ff920 RBP=00000217bd2c0000 RDI=0000000000000000 RSI=0000000000000014
+R8 =0000000000400000 R9 =0000000000000000 R10=00000217cb788103 R11=000002189fac0000
+R12=0000000000000000 R13=0000000000000000 R14=00000218c3955350 R15=0000000000000000
+
+-----------------------------------------
+   Game info
+-----------------------------------------
+Not available
+
+-----------------------------------------
+   Active PPC instance
+-----------------------------------------
+IP 0x00e00014 LR 0x00e00000 Thread 0x0e08c414
+
+r0 =00000000 r1 =0e28d130 r2 =00000000 r3 =00000000 r4 =00000000 r5 =00000000 r6 =00000000 r7 =00000000
+r8 =00000000 r9 =00000000 r10=00000000 r11=00000000 r12=00000000 r13=00000000 r14=00000000 r15=00000000
+r16=00000000 r17=00000000 r18=00000000 r19=00000000 r20=00000000 r21=00000000 r22=00000000 r23=00000000
+r24=00000000 r25=00000000 r26=00000000 r27=00000000 r28=00000000 r29=00000000 r30=00000000 r31=00000000
+r24=00000000 r25=00000000 r26=00000000 r27=00000000 r28=00000000 r29=00000000 r30=00000000 r31=00000000
+
+-----------------------------------------
+   PPC stack trace
+-----------------------------------------
+[17:27:43] Trace starting at SP/r1 0e28d130
+
+-----------------------------------------
+   PPC stack dump
+-----------------------------------------
+[0x0e28d130] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d150] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d170] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d190] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d1b0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d1d0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d1f0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d210] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d230] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d250] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d270] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d290] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d2b0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d2d0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d2f0] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+[0x0e28d310] 00000000 00000000 00000000 00000000 - 00000000 00000000 00000000 00000000
+
+-----------------------------------------
+   PPC threads
+-----------------------------------------
+0e38d150 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 100 Pri 32 Name {SYS Thread Terminator Core 0}
+0e391850 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 010 Pri 32 Name {SYS Thread Terminator Core 1}
+0e395f50 Ent 00e00008 IP 00e00008 LR 00e00000 WAITING   Aff 001 Pri 32 Name {SYS Thread Terminator Core 2}
+0e06b678 Ent 00e0000c IP 00e0000c LR 00e00000 WAITING   Aff 111 Pri 32 Name Alarm Thread
+0e007508 Ent 00e00010 IP 00e00010 LR 00e00000 WAITING   Aff 111 Pri 32 Name Callback Thread
+0e08c414 Ent 00e00014 IP 00e00004 LR 00e00000 RUNNING   Aff 010 Pri 80 Name Default Core 1
