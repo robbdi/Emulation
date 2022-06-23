@@ -37,12 +37,6 @@ https://archive.org/download/PS3_PSN_1
 
 https://archive.org/download/PS3_PSN_2
 
-https://archive.org/download/PS3_PSN_3
-
-https://archive.org/download/PS3_PSN_4
-
-https://archive.org/download/PS3_PSN_5
-
 
 
 https://archive.org/download/PS3_NOINTRO_USA_1
