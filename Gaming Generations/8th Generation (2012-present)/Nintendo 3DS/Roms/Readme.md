@@ -6,3 +6,4 @@ https://archive.org/download/1755-yo-kai-watch-2-psychic-specters-europe-m-7.-3d
 
 https://archive.org/download/0415-carl-jiisan-no-soratobu-ie-3-d-japan-e-shop-video.-3ds
 
+https://archive.org/download/3DS-CIAs
