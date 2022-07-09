@@ -13,3 +13,5 @@ https://www.sdeck.wiki
 Steam Deck Guide:
 https://github.com/mikeroyal/Steam-Deck-Guide
 
+https://deckdrivemanager.com
+
