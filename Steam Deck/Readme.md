@@ -15,3 +15,4 @@ https://github.com/mikeroyal/Steam-Deck-Guide
 
 https://deckdrivemanager.com
 
+https://github.com/ppkantorski/RetroSync
