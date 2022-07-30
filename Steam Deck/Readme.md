@@ -16,3 +16,16 @@ https://github.com/mikeroyal/Steam-Deck-Guide
 https://deckdrivemanager.com
 
 https://github.com/ppkantorski/RetroSync
+
+https://github.com/randombk/steamos-teardown
+
+https://blogs.igalia.com/berto/2022/07/05/running-the-steam-decks-os-in-a-virtual-machine-using-qemu/
+
+
+
+https://wagnerstechtalk.com/sd-emudeck/
+
+https://deckmate.me/shop/p/deck-mate-digital-files
+
+https://deckmate.me
+
