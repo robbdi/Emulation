@@ -29,3 +29,5 @@ https://deckmate.me/shop/p/deck-mate-digital-files
 
 https://deckmate.me
 
+https://www.reddit.com/r/WindowsOnDeck/comments/wn3x05/windows_on_deck_faq_aims_to_be_constantly_updated/
+
